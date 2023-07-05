@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Test Cases</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C1</id>
+				<title>Отправить пустую форму обратной связи</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Отправить пустую форму обратной связи</preconds>
+										<steps>1. Открываем сайт https://zezman.ua
+2. Оставляем форму &quot;Связаться с нами&quot; пустой
+3. Отправляем</steps>
+										<expected>Отображается сообщение об ошибке &quot;Пожалуйста, заполните все поля&quot;</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C2</id>
+				<title>Отправить форму обратной связи с некорректным адресом электронной почты</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Отправить форму обратной связи с некорректным адресом электронной почты</preconds>
+										<steps>1. Открываем сайт https://zezman.ua
+2. Заполняем форму &quot;Связаться с нами&quot;
+3. Отправляем
+</steps>
+										<expected>Отображается сообщение об ошибке &quot;Некорректно заполнено поле&quot;</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C3</id>
+				<title>Отправить форму обратной связи с корректными данными</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Отправить форму обратной связи с корректными данными</preconds>
+										<steps>1. Открываем сайт https://zezman.ua
+2. Заполняем форму &quot;Связаться с нами&quot;
+3. Отправляем
+</steps>
+										<expected>Форма отправлена!</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C4</id>
+				<title>Проверка наличия поля для ввода имени</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Проверка наличия поля для ввода имени</preconds>
+										<steps>1. Открываем сайт https://zezman.ua
+2. Заполняем форму &quot;Связаться с нами&quot;
+3. Отправляем
+</steps>
+										<expected>Поле для ввода имени отображается на форме обратной связи</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C5</id>
+				<title>Проверка наличия поля для ввода адреса электронной почты</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Проверка наличия поля для ввода адреса электронной почты</preconds>
+										<steps>1. Открываем сайт https://zezman.ua
+2. Заполняем форму &quot;Связаться с нами&quot;
+3. Отправляем
+</steps>
+										<expected>Поле для ввода адреса электронной почты отображается на форме обратной связи	</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C6</id>
+				<title>Проверка наличия поля для ввода комментария</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Проверка наличия поля для ввода комментария</preconds>
+										<steps>1. Открываем сайт https://zezman.ua
+2. Заполняем форму &quot;Связаться с нами&quot;
+3. Отправляем
+</steps>
+										<expected>Поле для ввода комментария отображается на форме обратной связи	</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C7</id>
+				<title>Попытка отправить форму обратной связи с некорректными символами в поле имени</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Попытка отправить форму обратной связи с некорректными символами в поле имени	</preconds>
+										<steps>1. Открываем сайт https://zezman.ua
+2. Заполняем форму &quot;Связаться с нами&quot;
+3. Отправляем
+</steps>
+										<expected>Отображается сообщение об ошибке &quot;Пожалуйста, введите корректное имя&quot;
+
+
+Форма отправлена!</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C8</id>
+				<title>Попытка отправить форму обратной связи без указания адреса электронной почты</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Попытка отправить форму обратной связи без указания адреса электронной почты</preconds>
+										<steps>1. Открываем сайт https://zezman.ua
+2. Заполняем форму &quot;Связаться с нами&quot;
+3. Отправляем
+</steps>
+										<expected>Отображается сообщение об ошибке &quot;Не заполнен E-mail&quot;
+
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C9</id>
+				<title>Проверка максимальной длины поля имени</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Проверка максимальной длины поля имени</preconds>
+										<steps>1. Открываем сайт https://zezman.ua
+2. Заполняем форму &quot;Связаться с нами&quot;
+3. Отправляем
+</steps>
+										<expected>Поле имя вмещает более 1100 символов
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C10</id>
+				<title>Проверка максимальной длины поля адреса электронной почты</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Проверка максимальной длины поля адреса электронной почты</preconds>
+										<steps>1. Открываем сайт https://zezman.ua
+2. Заполняем форму &quot;Связаться с нами&quot;
+3. Отправляем
+</steps>
+										<expected>Поле имя вмещает более 150 символов
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C11</id>
+				<title>Проверка максимальной длины поля сообщения</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Проверка максимальной длины поля сообщения</preconds>
+										<steps>1. Открываем сайт https://zezman.ua
+2. Заполняем форму &quot;Связаться с нами&quot;
+3. Отправляем
+</steps>
+										<expected>Поле имя вмещает более 2300 символов
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C12</id>
+				<title>Попытка отправить форму обратной связи с пропущенным обязательным полем</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Попытка отправить форму обратной связи с пропущенным обязательным полем	</preconds>
+										<steps>1. Открываем сайт https://zezman.ua
+2. Заполняем форму &quot;Связаться с нами&quot;
+3. Отправляем
+</steps>
+										<expected>Форма отправлена!
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C13</id>
+				<title>Проверка длины поля номера телефона</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Проверка длины поля номера телефона</preconds>
+										<steps>1. Открываем сайт https://zezman.ua
+2. Заполняем форму &quot;Связаться с нами&quot;
+3. Отправляем
+</steps>
+										<expected>Пользователь может ввести не более 11 цифр 
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C14</id>
+				<title>Попытка отправить форму обратной связи с некорректными символами в поле адреса электронной почты</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Попытка отправить форму обратной связи с некорректными символами в поле адреса электронной почты</preconds>
+										<steps>1. Открываем сайт https://zezman.ua
+2. Заполняем форму &quot;Связаться с нами&quot;
+3. Отправляем
+</steps>
+										<expected>Форма отправлена!
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C15</id>
+				<title>Попытка отправить форму обратной связи без принятия условия политики конфиденциальности</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Попытка отправить форму обратной связи без принятия условия политики конфиденциальности</preconds>
+										<steps>1. Открываем сайт https://zezman.ua
+2. Заполняем форму &quot;Связаться с нами&quot;
+3. Отправляем
+</steps>
+										<expected>Примите политику конфиденциальности
+</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+</suite>
